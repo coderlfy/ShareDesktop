@@ -30,7 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.newPanel1 = new CtrlExtend.NewPanel(this.components);
+            this.newPanel1 = new ControlEx.NewPanel(this.components);
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnConnect = new System.Windows.Forms.Button();
             this.tbPort = new System.Windows.Forms.TextBox();
@@ -104,7 +104,7 @@
 
         #endregion
 
-        private CtrlExtend.NewPanel newPanel1;
+        private ControlEx.NewPanel newPanel1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button btnConnect;
         private System.Windows.Forms.TextBox tbPort;

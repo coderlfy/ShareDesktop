@@ -88,6 +88,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ControlEx\ControlEx.csproj">
+      <Project>{d4b42471-735b-455d-a91c-14116a15699f}</Project>
+      <Name>ControlEx</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SocketProtocol\SocketProtocol.csproj">
       <Project>{fed9730c-c90a-4d2d-9d4c-6c9533461487}</Project>
       <Name>SocketProtocol</Name>
