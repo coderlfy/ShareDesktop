@@ -32,6 +32,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -39,8 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
-    <Compile Include="NewPanel.cs" />
+    <Compile Include="NewPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="NewPanel.Designer.cs">
       <DependentUpon>NewPanel.cs</DependentUpon>
     </Compile>
