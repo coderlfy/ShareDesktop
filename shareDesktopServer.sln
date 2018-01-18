@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketProtocol", "SocketPro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CtrlExtend", "CtrlExtend\CtrlExtend.csproj", "{CBC9CD68-82C8-4830-A731-E47463D7053A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlEx", "ControlEx\ControlEx.csproj", "{D4B42471-735B-455D-A91C-14116A15699F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,12 @@ Global
 		{CBC9CD68-82C8-4830-A731-E47463D7053A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBC9CD68-82C8-4830-A731-E47463D7053A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CBC9CD68-82C8-4830-A731-E47463D7053A}.Release|x86.ActiveCfg = Release|Any CPU
+		{D4B42471-735B-455D-A91C-14116A15699F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4B42471-735B-455D-A91C-14116A15699F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4B42471-735B-455D-A91C-14116A15699F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D4B42471-735B-455D-A91C-14116A15699F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4B42471-735B-455D-A91C-14116A15699F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4B42471-735B-455D-A91C-14116A15699F}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
