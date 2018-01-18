@@ -88,6 +88,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CtrlExtend\CtrlExtend.csproj">
+      <Project>{cbc9cd68-82c8-4830-a731-e47463d7053a}</Project>
+      <Name>CtrlExtend</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SocketProtocol\SocketProtocol.csproj">
       <Project>{fed9730c-c90a-4d2d-9d4c-6c9533461487}</Project>
       <Name>SocketProtocol</Name>
